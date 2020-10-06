@@ -1,0 +1,348 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1050px)
+  .description-course
+    max-width: 310px
+
+@media only screen and (max-width : 992px)
+  .about-photo
+    width: 350px
+
+  .photo-wrapper
+    height: 400px
+
+  .about-content
+    width: calc(100% - 350px)
+
+  .logo-footer
+    width: 148px
+    height: 41px
+
+  footer .description-course
+    font-size: 12px
+    max-width: 220px
+
+  footer
+    font-size: 14px
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 860px)
+  .description-course
+    font-size: 12px
+    max-width: 200px
+
+  .links-soc-icon
+    width: 40px
+    height: 40px
+    min-width: 40px
+    padding: 12px 7px
+
+  h1
+    font-size: 28px
+    margin: 0 0 30px
+
+  .main-content
+    width: 100%
+
+  main
+    padding: 141px 0 65px
+
+  .for-whom
+    font-size: 14px
+    margin: 0 0 22px
+
+  .column-registration
+    margin: 47px 0 0
+    width: 100%
+
+@media only screen and (max-width : 790px)
+  .program-box
+    width: 100%
+    margin: 0 0 10px
+
+  .program
+    .btn
+      margin: 16px auto 0
+
+@media only screen and (max-width : 768px)
+  .links-soc-text
+    display: none
+
+  .links-soc-icon
+    margin: 0
+
+  .description-course
+    height: 30px
+    max-width: 110px
+    overflow: hidden
+    margin: 0 0 0 14px
+
+  .logo
+    width: 127px
+    padding: 14px 8px 19px
+    &:before
+      width: 156px
+      height: 75px
+      background-position: center -10px
+
+  .list-check
+    font-size: 12px
+    li
+      margin: 0 0 14px
+      &:last-child
+        margin: 0
+
+  .box-registration
+    padding: 23px 24px 23px 30px
+    margin: 0 0 23px
+    h2
+      font-size: 18px
+
+  .about
+    padding: 74px 0 54px
+    margin: -52px 0 0
+
+  .about-content
+    font-size: 12px
+    width: calc(100% - 200px)
+    padding: 0 0 0 34px
+
+  .about-photo
+    width: 200px
+
+  .photo-wrapper
+    border: 5px solid #fff
+    height: 201px
+
+  .name-box
+    width: 149px
+    height: 39px
+    font-size: 10px
+    margin: -14px auto 0
+    h3
+      font-size: 12px
+
+  .about-content .name span
+    position: relative
+    top: 0
+    left: 0
+
+  footer .description-course
+    max-width: 150px
+    font-size: 10px
+    height: auto
+    margin: 0 auto 0 12px
+
+  footer
+    padding: 11px 0 6px
+
+  h2
+    font-size: 28px
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 575px)
+  .about-content .text p
+    display: none
+    margin: 0
+    &:first-child
+      display: block
+
+  .about-content .name
+    font-size: 14px
+    margin: 0 0 16px
+    span
+      font-size: 36px
+
+  .text-mobile
+    display: block
+    margin: 19px 0 0
+    font-size: 12px
+    font-weight: 500
+    p
+      margin: 0 0 10px
+      &:last-child
+        margin: 0
+
+  .about-content
+    width: calc(100% - 163px)
+
+  .about-photo
+    width: 163px
+
+  .links-developer
+    width: 100%
+    order: 1
+    padding: 5px 0 0
+    border-top: 1px solid rgba(255, 255, 255, 0.2)
+    margin: 10px auto 0
+    text-align: center
+    font-size: 12px
+
+
+@media only screen and (max-width : 480px)
+  .box-registration
+    .subtitle
+      display: none
+    h2
+      font-size: 14px
+      margin: 0 0 8px
+      text-align: left
+
+  .list-social
+    justify-content: flex-start
+    li
+      margin: 0 10px 0 0
+      &:last-child
+        margin: 0
+        display: block
+        img
+          width: 22px
+      a
+        width: 57px
+        height: 37px
+        padding: 12px 15px
+        .text
+          display: none
+        .icon
+          margin: 0
+
+  .box-bonus
+    p
+      padding: 0 0 0 18px
+      width: calc(100% - 99px)
+      font-size: 12px
+      span
+
+        font-size: 16px
+
+  .box-bonus__img
+    width: 99px
+    min-width: 99px
+    height: 126px
+    padding: 13px 0
+
+  .program
+    padding: 45px 0 37px
+
+  .program-attention
+    margin: 18px auto 0
+    font-size: 12px
+
+  .btn
+    height: 60px
+    font-size: 14px
+
+  .program .btn
+    max-width: 320px
+
+  .program-box
+    padding: 28px 19px 20px 28px
+    h3
+      font-size: 18px
+      min-height: auto
+    .icon-arrow
+      position: absolute
+      box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.08)
+      width: 40px
+      height: 40px
+      background: #fff
+      border-radius: 50%
+      display: flex
+      align-items: center
+      justify-content: center
+      right: 0
+      top: 0
+      padding: 10px
+      cursor: pointer
+      transition: .3s ease
+
+
+  .program-box__body
+    display: none
+    padding: 26px 0 0
+
+  .program-box__top
+    margin: 0
+    position: relative
+
+  .program-box__top.open
+    .icon-arrow
+      transform: rotate(180deg)
+
+  .time
+    margin: 0 0 14px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 400px)
+  .about-content
+    padding: 0 0 0 15px
+    width: calc(100% - 150px)
+    .name
+      font-size: 12px
+      margin: 0 0 20px
+      span
+        font-size: 28px
+
+  .about-photo
+    width: 150px
+
+  .name-box
+    width: 130px
+
+  .logo-footer
+    width: 90px
+
+  .program .btn
+    max-width: 280px
+
+@media only screen and (max-width : 340px)
+  .links-soc-icon
+    width: 30px
+    height: 30px
+    min-width: 30px
+
+  .container
+    padding: 0 15px
+
+  .about-content
+    .text
+      display: none
+    .name
+      margin: 0
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
