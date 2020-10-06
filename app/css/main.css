@@ -313,14 +313,16 @@ strong {
             box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.08);
     border-radius: 5px;
     color: #383838;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 500;
-    width: 125px;
+    width: 90px;
     height: 38px; }
+    .list-social li a:hover {
+      -webkit-box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.2);
+              box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.2); }
     .list-social li a .icon {
-      margin: 0 10px 0 0; }
-  .list-social li:last-child {
-    display: none; }
+      margin: 0 5px 0 0;
+      max-width: 16px; }
 
 .box-bonus {
   width: 100%;
@@ -571,7 +573,10 @@ h2 {
           flex-direction: column;
   -webkit-box-align: start;
       -ms-flex-align: start;
-          align-items: flex-start; }
+          align-items: flex-start;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  cursor: pointer; }
   .program-box .icon-arrow {
     display: none; }
   .program-box h3 {
@@ -585,12 +590,12 @@ h2 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-  .program-box:first-child {
+  .program-box:hover {
     color: #fff;
     background: linear-gradient(179.81deg, #E3474F -0.98%, #47306C 99.86%); }
-    .program-box:first-child h3, .program-box:first-child ul {
+    .program-box:hover h3, .program-box:hover ul {
       color: #fff; }
-    .program-box:first-child .time {
+    .program-box:hover .time {
       background: #fff;
       color: #DF2A2B; }
 
@@ -876,17 +881,19 @@ h2 {
   .program .btn {
     max-width: 280px; } }
 
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 360px) {
   .links-soc-icon {
     width: 30px;
     height: 30px;
     min-width: 30px; }
   .container {
     padding: 0 15px; }
-  .about-content .text {
-    display: none; }
   .about-content .name {
-    margin: 0; } }
+    margin: 0 0 5px; }
+  .list-social li a {
+    padding: 5px;
+    width: 47px;
+    min-width: 47px; } }
 
 /*==========  Mobile First  ==========*/
 /* Custom, iPhone Retina */
